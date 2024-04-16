@@ -7,4 +7,70 @@
 html, body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
+    color: #22cb6d;
+    background-color: #081a0e;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+}
+
+/* ========================== Classes =========================== */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ============================= Main ======================== */
+
+main::after {
+    content: "";
+    height: 600px;
+    width: 800px;
+    display: flex;
+    
+    border: solid 3px #22cb6d;
+    
+    position: fixed;
+    top: 15vh;
+    right: 560px;
+
+}
+
+/* ========================= Footer ===================== */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 33.3vw;
+}
+
+.menu_selector_container {
+    background-color: #6b613d;
+    width: 33.3vw;
+    height: 20vh;
+    align-items: center;
+}
+
+.selector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0px;
+
+    font-size: 3rem;
+}
+
+.selector_button {
+    width: 120px;
+    height: 120px;
+    border: solid 10px #9c8464;
+    border-radius: 60px;
+    background-color: #f57627;
+    cursor: pointer;
 }
