@@ -8,7 +8,7 @@ html, body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     color: #22cb6d;
-    background-color: #081a0e;
+    background-color: #0c0901;
 }
 
 ul {
@@ -22,13 +22,8 @@ li {
 /* ========================== Background image =========================== */
 
 #pipboy {
-    background-image: url("/Imagens/pipboy-editado.png");
-    z-index: -1;
-
     width: 100vw;
     height: 100vh;
-
-    position: relative;
 }
 
 /* ========================== Classes =========================== */
@@ -39,58 +34,23 @@ li {
 
 /* ============================= Main ======================== */
 
-main::after {
-    content: "Hellow World!!!";
-    height: 400px;
-    width: 600px;
+#background_img {
+    background-image: url("/Imagens/pipboy-editado.png");
     display: flex;
-    
-    border: solid 3px #22cb6d;
-    
-    margin: auto;
 }
 
+#content {
+    width: 800px;
+    height: 500px;
+    background-color: transparent;
+    border: solid 1px #05fb50;
+
+    z-index: 1;
+    position: fixed;
+    display: flex;
+
+    top: 120px;
+    left: 650px;
+}
 /* ========================= Footer ===================== */
 
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: red;
-}
-
-.menu_selector_container {
-    background-color: transparent;
-    width: 100px;
-    height: ;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-
-    right: 680px;
-    bottom: 140px;
-
-    background-color: blue;
-}
-
-.menu_selector_img {
-    background-color: red;
-    display: none;
-}
-
-.selector {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 0px;
-
-    font-size: 1.5rem;
-    display: none;
-}
-
-.selector_button {
-    width: 70px;
-    height: 70px;
-    cursor: pointer;
-}
