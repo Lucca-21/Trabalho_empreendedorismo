@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    color: #d05553;
+}
+
+body {
+    background: rgb(74,24,26);
+    background: linear-gradient(180deg, #4a181a 44%, #260d10 77%);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #7ee3dd;
+}
+/* ----------------------------------- extras */
+
+.div_formataçao {
+    width: 1280px;
+    margin: auto;
+
+}
+.tamanho_normal {
+    font-size: 1rem;
+}
+
+.tamanho_2x {
+    font-size: 2rem;
+}
+
+.tamanho_3x {
+    font-size: 3rem;
+}
+
+.tamanho_4x {
+    font-size: 4rem;
+}
+
+.tamanho_5x {
+    font-size: 5rem;
+}
+
+#title_img {
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    background-color: blue;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-colorful-hexagon-stripped-lines-pattern-background_6735-2045.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1717372800&semt=ais_user");
+    
+    background-size: 100%;
+
+    border: solid 1px #7ee3dd;
+}
+
+
+/* ----------------------------------- header */
+header {
+    height: 100px;
+    width: 100vw;
+}
+
+#header_div {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #7ee3dd;
+}
+
+#header_image {
+    width: 180px;
+    height: 80px;
+}
+
+/* ----------------------------------- main */
+
+/* ----------------------------------- footer */
+footer {
+    height: 50vh;
+    width: 100vw;
+}
+
+#footer_div {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
