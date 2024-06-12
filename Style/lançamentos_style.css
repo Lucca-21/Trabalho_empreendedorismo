@@ -83,11 +83,11 @@ a {
   line-height: 78px;
   font-size: 20px;
   font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #FF013C 5%);
+  background: linear-gradient(45deg, transparent 5%, #d05553 5%);
   border: 0;
-  color: #fff;
+  color: #7ee3dd;
   letter-spacing: 3px;
-  box-shadow: 6px 0px 0px #00E6F6;
+  box-shadow: 6px 0px 0px #7ee3dd;
   outline: transparent;
   position: relative;
   user-select: none;
@@ -110,8 +110,8 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
-  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+  background: linear-gradient(45deg, transparent 3%, #7ee3dd 3%, #7ee3dd 5%, #d05553 5%);
+  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #7ee3dd;
   clip-path: var(--slice-0);
 }
 
@@ -238,8 +238,10 @@ header {
     align-items: center;
     justify-content: space-around;
 
-    background-color: green;
-    padding: 50px;
+    border-top: solid 1px #7c2a2d;
+    border-bottom: solid 1px #7c2a2d;
+
+    padding: 0px;
 }
     
 #sobre_texto {
