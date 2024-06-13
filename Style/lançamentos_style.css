@@ -74,6 +74,17 @@ a {
     box-shadow: -20px 20px black;
 }
 
+.display_flex_colum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.visibility_off {
+  display: none;
+}
+
 /* -------------------------------- button */
 
 .button,
@@ -93,6 +104,7 @@ a {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  cursor: pointer;
 }
 
 .button:after {
@@ -202,7 +214,7 @@ header {
 /* ----------------------------------- main */
 
 .main_box_style {
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
 /* ---------------------------------- section 1 */
@@ -214,6 +226,8 @@ header {
     width: 80%;
 
     padding: 100px 0px;
+
+    cursor: pointer;
 }
 
 .div_produto_style {
@@ -228,24 +242,59 @@ header {
 
 /* ------------------------------ section 2 */
 
-#sobre {
+#section2 {
+  padding-bottom: 100px;
+}
+
+/* --------------------------------- A */
+
+#sobre_A {
     width: 80%;
     height: 300px;
     margin: auto;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    padding: 0px;
 
     border-top: solid 1px #7c2a2d;
     border-bottom: solid 1px #7c2a2d;
 
-    padding: 0px;
 }
     
-#sobre_texto {
+#sobre_texto_A {
     text-align: justify;
+}
+
+/* --------------------------------- B */
+
+#sobre_B {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  padding: 0px;
+  
+  border-top: solid 1px #7c2a2d;
+  border-bottom: solid 1px #7c2a2d;
+
+}
+  
+#sobre_texto_B {
+  text-align: justify;
+}
+
+/* --------------------------------- C */
+
+#sobre_C {
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  padding: 0px;
+  
+  border-top: solid 1px #7c2a2d;
+  border-bottom: solid 1px #7c2a2d;
+
+}
+  
+#sobre_texto_C {
+  text-align: justify;
 }
         
 .button_tamanho {

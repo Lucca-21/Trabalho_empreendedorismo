@@ -6,6 +6,11 @@
     <title>Lançamentos</title>
     
     <link rel="stylesheet" href="/Style/lançamentos_style.css">
+    <script src="/JavaScript/lançamentos_script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -13,7 +18,6 @@
             <a href="/index.html"><img src="https://purepng.com/public/uploads/large/purepng.com-cyberpunk-2077-logologosgame-logogame-logosgameslogocyberpunk-2077-12715289961328hlgr.png" alt="" id="header_image"></a>
             <a href="/Pages/lançamentos.html"><p>Lançamentos</p></a>
             <a href="/Pages/protesis.html"><p>Prótesis</p></a>
-            <a href="/Pages/mais.html"><p>Mais</p></a>
             <a href="/Pages/sobre.html"><p>Sobre</p></a>
             
         </div>
@@ -30,10 +34,28 @@
 
             <section id="section2">
 
-                <div id="sobre">
-                    <p id="sobre_texto" class="tamanho_3x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorum!</p>
+<!-- ---------------------- A ----------------------- -->
 
-                    <button class="button button_tamanho tamanho_2x" role="button">Saiba mais</button>
+                <div id="sobre_A" class="display_flex_colum">
+                    <p id="sobre_texto_A" class="tamanho_3x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorum! A</p>
+
+                    <button class="button button_tamanho tamanho_2x" role="button" onclick="produto1()">Saiba mais</button>
+                </div>
+
+<!-- ---------------------- B ----------------------- -->
+
+                <div id="sobre_B" class="display_flex_colum visibility_off">
+                    <p id="sobre_texto_B" class="tamanho_3x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorum! B</p>
+
+                    <button class="button button_tamanho tamanho_2x" role="button" onclick="produto2()">Saiba mais</button>
+                </div>
+
+<!-- ---------------------- C ----------------------- -->
+
+                <div id="sobre_C" class="display_flex_colum visibility_off">
+                    <p id="sobre_texto_C" class="tamanho_3x">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, dolorum! C</p>
+
+                    <button class="button button_tamanho tamanho_2x" role="button" onclick="produto3()">Saiba mais</button>
                 </div>
 
             </section>
