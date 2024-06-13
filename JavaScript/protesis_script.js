@@ -26,29 +26,29 @@ function mostrarSecao(secaoId) {
 /* ---------------------- botões ------------------------ */
 
 function produto1() {
-    location.replace("/Pages/produtos/produto1.html")
+    location.replace("./produtos/produto1.html")
 }
 function produto2() {
-    location.replace("/Pages/produtos/produto2.html")
+    location.replace("./produtos/produto2.html")
 }
 function produto3() {
-    location.replace("/Pages/produtos/produto3.html")
+    location.replace("./produtos/produto3.html")
 }
 function produto4() {
-    location.replace("/Pages/produtos/produto4.html")
+    location.replace("./produtos/produto4.html")
 }
 function produto5() {
-    location.replace("/Pages/produtos/produto5.html")
+    location.replace("./produtos/produto5.html")
 }
 function produto6() {
-    location.replace("/Pages/produtos/produto6.html")
+    location.replace("./produtos/produto6.html")
 }
 function produto7() {
-    location.replace("/Pages/produtos/produto7.html")
+    location.replace("./produtos/produto7.html")
 }
 function produto8() {
-    location.replace("/Pages/produtos/produto8.html")
+    location.replace("./produtos/produto8.html")
 }
 function produto9() {
-    location.replace("/Pages/produtos/produto9.html")
+    location.replace("./produtos/produto9.html")
 }

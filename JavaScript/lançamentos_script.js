@@ -26,11 +26,11 @@ function mostrarSecao(secaoId) {
 /* ------------------ buttons -------------------- */
 
 function produto1() {
-    location.replace("/Pages/produtos/produto1.html")
+    location.replace("./produtos/produto1.html")
 }
 function produto2() {
-    location.replace("/Pages/produtos/produto4.html")
+    location.replace("./produtos/produto4.html")
 }
 function produto3() {
-    location.replace("/Pages/produtos/produto7.html")
+    location.replace("./produtos/produto7.html")
 }
