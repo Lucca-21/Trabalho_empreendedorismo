@@ -269,6 +269,8 @@ header {
     cursor: pointer;
     background-color: transparent;
     border:none;
+
+    color: #7ee3dd;
 }
 .front {
     height: 200px;
@@ -278,7 +280,9 @@ header {
 
     cursor: pointer;
     background-color: transparent;
-    border: none;    
+    border: none;  
+    
+    color: #7ee3dd;
 }
 
 
