@@ -74,6 +74,16 @@ a {
     box-shadow: -20px 20px black;
 }
 
+.border_top {
+  border-top: solid 1px;
+  border-image: linear-gradient(to right, #00000000 0%, #00000000 10%, #d05553 10%, #d05553 90%, #00000000 90%, #00000000 100%)100% 1;
+}
+
+.border_bottom {
+  border-bottom: solid 1px;
+  border-image: linear-gradient(to right, #00000000 0%, #00000000 10%, #d05553 10%, #d05553 90%, #00000000 90%, #00000000 100%)100% 1;
+}
+
 /* -------------------------------- button */
 
 .button,
@@ -207,8 +217,24 @@ header {
 
 /* ---------------------------------- section 1 */
 
+  #section1 {
+    padding: 100px 0px;
+    width: 90%;
+    margin: auto;
+
+  }
 
 /* ------------------------------ section 2 */
+
+#section2 {
+  padding: 50px 0px;
+  width: 90%;
+  margin: auto;
+}
+
+.direito_div {
+  padding: 50px 0px;
+}
 
 /* ----------------------------------- footer */
 

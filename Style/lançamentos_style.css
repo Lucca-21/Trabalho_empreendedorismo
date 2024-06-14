@@ -242,9 +242,13 @@ header {
     height: 500px;
     
     border-radius: 40px;
-    box-shadow: 2px 4px 12px #7c2a2d;
 
-    background-color: blue;
+    transition: transform 0.3s ease-in-out;
+}
+
+.div_produto_style:hover {
+  transform: scale(1.02);
+  border: solid 5px #7c2a2d;
 }
 
 /* ------------------------------ section 2 */

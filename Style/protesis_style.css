@@ -263,8 +263,13 @@ header {
   text-align: center;
   cursor: pointer;
 
+  transition: transform 0.3s ease-in-out;
 }
 
+.options:hover {
+  transform: scale(1.02);
+  border: solid 5px #7c2a2d;
+}
 /* ------------------------------ section 2 */
 
 /* --------------------------------- Tipo A */
