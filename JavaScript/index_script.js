@@ -10,9 +10,9 @@ var i = 0;
 var images = [];
 var urls = [];
 
-images[0] = './Imagens/imagem_1.jpg';
-images[1] = './Imagens/imagem_2.png';
-images[2] = './Imagens/imagem_3.png';
+images[0] = './Imagens/index_images/imagem_1.jpg';
+images[1] = './Imagens/index_images/imagem_2.jpg';
+images[2] = './Imagens/index_images/imagem_3.jpg';
 
 urls[0] = './Pages/produtos/produto1.html';
 urls[1] = './Pages/produtos/produto4.html';
