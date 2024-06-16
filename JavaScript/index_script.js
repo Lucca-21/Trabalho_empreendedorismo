@@ -14,9 +14,9 @@ images[0] = './Imagens/index_images/imagem_1.jpg';
 images[1] = './Imagens/index_images/imagem_2.jpg';
 images[2] = './Imagens/index_images/imagem_3.jpg';
 
-urls[0] = './Pages/produtos/produto1.html';
-urls[1] = './Pages/produtos/produto4.html';
-urls[2] = './Pages/produtos/produto7.html';
+urls[0] = './Pages/produtos/produto3.html';
+urls[1] = './Pages/produtos/produto6.html';
+urls[2] = './Pages/produtos/produto9.html';
 
 function backward() {
     if (i <= 0) {
