@@ -218,7 +218,7 @@ header {
 #product_container {
 
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding-bottom: 50px;
 
@@ -247,7 +247,7 @@ header {
 
 #prices {
 
-    width: 45%;
+    width: 35%;
     height: 600px;
 
     display: flex;
@@ -260,7 +260,7 @@ header {
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 150px;
     width: 100%;
 }

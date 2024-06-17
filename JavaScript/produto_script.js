@@ -17,3 +17,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleciona o botão de compra
+    const comprarButton = document.querySelector('.button');
+
+    // Adiciona um listener de evento para o botão de compra
+    comprarButton.addEventListener('click', function() {
+        // Exibe o aviso na tela
+        alert('Parabéns pela compra!');
+    });
+});

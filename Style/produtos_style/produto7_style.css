@@ -1,231 +1,231 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: "Oswald", sans-serif;
-    font-size: 16px;
-    color: #d05553;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  color: #d05553;
 }
 
 body {
-    background: rgb(74,24,26);
-    background: linear-gradient(180deg, #4a181a 44%, #260d10 77%);
-    width: 100vw;
-    overflow-x: hidden;
+  background: rgb(74,24,26);
+  background: linear-gradient(180deg, #4a181a 44%, #260d10 77%);
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: #7ee3dd;
+  text-decoration: none;
+  color: #7ee3dd;
 }
 /* ----------------------------------- extras */
 
 .div_formataçao {
-    width: 1280px;
-    margin: auto;
+  width: 1280px;
+  margin: auto;
 
 }
 .tamanho_normal {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .tamanho_2x {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .tamanho_3x {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .tamanho_4x {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .tamanho_5x {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 #title_img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .img {
-    background-color: blue;
-    background-image: url("https://img.freepik.com/premium-vector/abstract-colorful-hexagon-stripped-lines-pattern-background_6735-2045.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1717372800&semt=ais_user");
-    
-    background-size: 100%;
+  background-color: blue;
+  background-image: url("https://img.freepik.com/premium-vector/abstract-colorful-hexagon-stripped-lines-pattern-background_6735-2045.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1717372800&semt=ais_user");
+  
+  background-size: 100%;
 
-    border: solid 1px #7ee3dd;
+  border: solid 1px #7ee3dd;
 }
 
 .background_gradient {
-    background: linear-gradient(180deg, #260d10 44%, #4a181a 77%);
+  background: linear-gradient(180deg, #260d10 44%, #4a181a 77%);
 }
 
 .drop_shadow {
-    box-shadow: -20px 20px black;
+  box-shadow: -20px 20px black;
 }
 
 /* -------------------------------- button */
 .button,
 .button:after {
-  width: 150px;
-  height: 76px;
-  line-height: 78px;
-  font-size: 20px;
-  font-family: 'Bebas Neue', sans-serif;
-  background: linear-gradient(45deg, transparent 5%, #d05553 5%);
-  border: 0;
-  color: #7ee3dd;
-  letter-spacing: 3px;
-  box-shadow: 6px 0px 0px #7ee3dd;
-  outline: transparent;
-  position: relative;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+width: 150px;
+height: 76px;
+line-height: 78px;
+font-size: 20px;
+font-family: 'Bebas Neue', sans-serif;
+background: linear-gradient(45deg, transparent 5%, #d05553 5%);
+border: 0;
+color: #7ee3dd;
+letter-spacing: 3px;
+box-shadow: 6px 0px 0px #7ee3dd;
+outline: transparent;
+position: relative;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
 }
 
 .button:after {
-  --slice-0: inset(50% 50% 50% 50%);
-  --slice-1: inset(80% -6px 0 0);
-  --slice-2: inset(50% -6px 30% 0);
-  --slice-3: inset(10% -6px 85% 0);
-  --slice-4: inset(40% -6px 43% 0);
-  --slice-5: inset(80% -6px 5% 0);
-  
-  content: 'RECEBA';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(45deg, transparent 3%, #7ee3dd 3%, #7ee3dd 5%, #d05553 5%);
-  text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #7ee3dd;
-  clip-path: var(--slice-0);
+--slice-0: inset(50% 50% 50% 50%);
+--slice-1: inset(80% -6px 0 0);
+--slice-2: inset(50% -6px 30% 0);
+--slice-3: inset(10% -6px 85% 0);
+--slice-4: inset(40% -6px 43% 0);
+--slice-5: inset(80% -6px 5% 0);
+
+content: 'RECEBA';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: linear-gradient(45deg, transparent 3%, #7ee3dd 3%, #7ee3dd 5%, #d05553 5%);
+text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #7ee3dd;
+clip-path: var(--slice-0);
 }
 
 .button:hover:after {
-  animation: 1s glitch;
-  animation-timing-function: steps(2, end);
+animation: 1s glitch;
+animation-timing-function: steps(2, end);
 }
 
 @keyframes glitch {
-  0% {
-    clip-path: var(--slice-1);
-    transform: translate(-20px, -10px);
-  }
-  10% {
-    clip-path: var(--slice-3);
-    transform: translate(10px, 10px);
-  }
-  20% {
-    clip-path: var(--slice-1);
-    transform: translate(-10px, 10px);
-  }
-  30% {
-    clip-path: var(--slice-3);
-    transform: translate(0px, 5px);
-  }
-  40% {
-    clip-path: var(--slice-2);
-    transform: translate(-5px, 0px);
-  }
-  50% {
-    clip-path: var(--slice-3);
-    transform: translate(5px, 0px);
-  }
-  60% {
-    clip-path: var(--slice-4);
-    transform: translate(5px, 10px);
-  }
-  70% {
-    clip-path: var(--slice-2);
-    transform: translate(-10px, 10px);
-  }
-  80% {
-    clip-path: var(--slice-5);
-    transform: translate(20px, -10px);
-  }
-  90% {
-    clip-path: var(--slice-1);
-    transform: translate(-10px, 0px);
-  }
-  100% {
-    clip-path: var(--slice-1);
-    transform: translate(0);
-  }
+0% {
+  clip-path: var(--slice-1);
+  transform: translate(-20px, -10px);
+}
+10% {
+  clip-path: var(--slice-3);
+  transform: translate(10px, 10px);
+}
+20% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 10px);
+}
+30% {
+  clip-path: var(--slice-3);
+  transform: translate(0px, 5px);
+}
+40% {
+  clip-path: var(--slice-2);
+  transform: translate(-5px, 0px);
+}
+50% {
+  clip-path: var(--slice-3);
+  transform: translate(5px, 0px);
+}
+60% {
+  clip-path: var(--slice-4);
+  transform: translate(5px, 10px);
+}
+70% {
+  clip-path: var(--slice-2);
+  transform: translate(-10px, 10px);
+}
+80% {
+  clip-path: var(--slice-5);
+  transform: translate(20px, -10px);
+}
+90% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 0px);
+}
+100% {
+  clip-path: var(--slice-1);
+  transform: translate(0);
+}
 }
 
 @media (min-width: 768px) {
-  .button,
-  .button:after {
-    width: 300px;
-    height: 90px;
-    line-height: 88px;
-  }
+.button,
+.button:after {
+  width: 300px;
+  height: 90px;
+  line-height: 88px;
+}
 }
 /* ----------------------------------- header */
 header {
-    height: 100px;
-    width: 100vw;
+  height: 100px;
+  width: 100vw;
 }
 
 #header_div {
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: #7ee3dd;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #7ee3dd;
 }
 
 #header_image {
-    width: 180px;
-    height: 80px;
-    background-image: url("https://img.freepik.com/premium-vector/abstract-colorful-hexagon-stripped-lines-pattern-background_6735-2045.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1717372800&semt=ais_user");
+  width: 180px;
+  height: 80px;
+  background-image: url("https://img.freepik.com/premium-vector/abstract-colorful-hexagon-stripped-lines-pattern-background_6735-2045.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1717372800&semt=ais_user");
 
-    background-size: 100%;
+  background-size: 100%;
 
-    border: solid 1px #7ee3dd;
+  border: solid 1px #7ee3dd;
 }
 
 /* ----------------------------------- main */
 
 .main_box_style {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 /* ---------------------------------- section 1 */
 
 #title {
-    width: 90%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    border-bottom: solid 1px #d05553;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: solid 1px #d05553;
 }
 
 #product_container {
 
-    display: flex;
-    width: 90%;
-    margin: auto;
-    padding-bottom: 50px;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50px;
 
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 
-    border-bottom: solid 1px #d05553;
+  border-bottom: solid 1px #d05553;
 }
 
 #image_div {
@@ -247,119 +247,119 @@ font-size: 1.5rem;
 
 #prices {
 
-    width: 45%;
-    height: 600px;
+  width: 35%;
+  height: 600px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .valor {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 150px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  width: 100%;
 }
 
 /* -------------------------------- Checkbox */
 
 /* Customize the label (the container) */
 .container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 50px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  /* Hide the browser's default radio button */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  /* Create a custom radio button */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 50px;
-    background-color: #eee;
-    border-radius: 50%;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-  
-  /* When the radio button is checked, add a blue background */
-  .container input:checked ~ .checkmark {
-    background-color: #2196F3;
-  }
-  
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .container .checkmark:after {
-    top: 15px;
-    left: 15px;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: white;
-  }
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 15px;
+  left: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+}
 
 /* ------------------------------ section 2 */
 
 #project_info {
 
-    width: 90%;
-    margin: auto;
-    padding: 50px 0px;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0px;
 }
 
 #info_text {
 
-    text-align: justify;
-    width: 60%;
+  text-align: justify;
+  width: 60%;
 }
 
 
 /* ----------------------------------- footer */
 
 footer {
-    height: 50vh;
-    width: 100vw;
+  height: 50vh;
+  width: 100vw;
 }
 
 #footer_div {
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
