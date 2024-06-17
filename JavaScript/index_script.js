@@ -1,7 +1,7 @@
 /* ------------------------ Redirect */
 
 function protesis_redirect() {
-    location.replace("./Pages/protesis.html")
+    location.replace("./Pages/equipamentos.html")
 }
 
 /* --------------------------- Change image */

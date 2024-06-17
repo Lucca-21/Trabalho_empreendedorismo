@@ -286,7 +286,7 @@ header {
 
 #produto_1_A {
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -294,19 +294,20 @@ header {
   background-color: pink;
 
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_1_A {
   height: 500px;
+  width: 50%;
 }
 
 /* ---------------------------- produto 2 */
 
 #produto_2_A {
-
+  
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -314,11 +315,11 @@ header {
   background-color: pink;
 
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_2_A {
-
+  width: 50%;
   height: 500px;
 }
 
@@ -327,7 +328,7 @@ header {
 #produto_3_A {
   
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 0px;
   }
   
@@ -335,11 +336,11 @@ header {
   background-color: pink;
   
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_3_A {
-
+  width: 50%;
   height: 500px;
 }
 
@@ -358,7 +359,7 @@ header {
 #produto_1_B {
 
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -366,11 +367,11 @@ header {
   background-color: pink;
 
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_1_B {
-
+  width: 50%;
   height: 500px;
 }
 
@@ -379,7 +380,7 @@ header {
 #produto_2_B {
 
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -387,11 +388,11 @@ header {
   background-color: pink;
 
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_2_B {
-
+  width: 50%;
   height: 500px;
 }
 
@@ -400,7 +401,7 @@ header {
 #produto_3_B {
   
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 0px;
   }
   
@@ -408,11 +409,11 @@ header {
   background-color: pink;
   
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_3_B {
-
+  width: 50%;
   height: 500px;
 }
 
@@ -431,7 +432,7 @@ header {
 #produto_1_C {
 
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -439,11 +440,11 @@ header {
   background-color: pink;
 
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_1_C {
-
+  width: 50%;
   height: 500px;
 }
 
@@ -452,7 +453,7 @@ header {
 #produto_2_C {
 
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 50px;
 }
 
@@ -460,11 +461,11 @@ header {
   background-color: pink;
 
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_2_C {
-
+  width: 50%;
   height: 500px;
 }
 
@@ -473,7 +474,7 @@ header {
 #produto_3_C {
   
   height: 30%;
-  width: 90%;
+  width: 100%;
   margin-bottom: 0px;
   }
   
@@ -481,11 +482,11 @@ header {
   background-color: pink;
   
   height: 600px;
-  width: 50%;
+  width: 45%;
 }
 
 #produo_mais_3_C {
-
+  width: 50%;
   height: 500px;
 }
 
