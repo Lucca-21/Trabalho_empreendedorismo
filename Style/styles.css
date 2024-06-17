@@ -127,7 +127,7 @@ header {
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
-  height: 48px;
+  height: 50px;
   font-weight: bold;
   justify-content: center;
   letter-spacing: .25px;
@@ -146,6 +146,7 @@ header {
   will-change: transform,opacity;
   z-index: 0;
   transition: transform 0.3s ease-in-out;
+  font-size: 2rem;
 }
 
 .button:hover {
@@ -220,10 +221,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
 }
 
 #mais_button1 {
-    width: 25%;
+    width: 50%;
 }
 
 /* ----------------------------- content 2 */
@@ -236,10 +240,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    height: 100%;
+    justify-content: space-evenly;
 }
 
 #mais_button2 {
-    width: 25%;
+    width: 50%;
 }
 /* ----------------------------- content 3 */
 
@@ -247,10 +254,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 100%;
 }
 
 #mais_button3 {
-    width: 25%;
+    width: 50%;
 }
 
 /* --------------------------- section 3 */

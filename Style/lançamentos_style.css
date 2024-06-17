@@ -271,7 +271,7 @@ header {
 }
     
 #sobre_texto_A {
-    text-align: justify;
+    text-align: center;
 }
 
 /* --------------------------------- B */
@@ -288,7 +288,7 @@ header {
 }
   
 #sobre_texto_B {
-  text-align: justify;
+  text-align: center;
 }
 
 /* --------------------------------- C */
@@ -305,7 +305,7 @@ header {
 }
   
 #sobre_texto_C {
-  text-align: justify;
+  text-align: center;
 }
         
 .button_tamanho {
